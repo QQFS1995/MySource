@@ -10,9 +10,7 @@
 #endif
 #endif
 
-#import "FFttViewController.h"
-#import "TestTwoViewController.h"
-#import "TestViewController.h"
+#import "TestCCViewController.h"
 
 FOUNDATION_EXPORT double MyFirstVersionNumber;
 FOUNDATION_EXPORT const unsigned char MyFirstVersionString[];
