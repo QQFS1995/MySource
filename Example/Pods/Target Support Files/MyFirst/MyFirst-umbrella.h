@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "FFttViewController.h"
+#import "TestTwoViewController.h"
 #import "TestViewController.h"
 
 FOUNDATION_EXPORT double MyFirstVersionNumber;

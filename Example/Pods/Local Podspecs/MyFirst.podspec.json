@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of MyFirst.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/fengshuo3/MyFirst",
+  "homepage": "https://github.com/QQFS1995/MySource.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "fengshuo3": "fengshuo3@jd.com"
+    "fs": "fs@sina.com"
   },
   "source": {
-    "git": "https://github.com/fengshuo3/MyFirst.git",
+    "git": "https://github.com/QQFS1995/MySource.git",
     "tag": "0.1.0"
   },
   "platforms": {
