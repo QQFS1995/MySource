@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.authors = {"fs"=>"fs@sina.com"}
   s.homepage = "https://github.com/QQFS1995/MySource.git"
   s.description = "TODO: Add long description of the pod here."
-  s.source = { :path => '.' }
+  s.source = { :git =>'https://github.com/QQFS1995/MySource.git' }
 
   s.ios.deployment_target    = '8.0'
-  s.ios.vendored_framework   = 'ios/MyFirst.framework'
+  s.ios.vendored_framework   = 'MyFirst-0.5.0/ios/MyFirst.framework'
 end
