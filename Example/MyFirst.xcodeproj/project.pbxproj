@@ -62,10 +62,10 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91BE478CEF619836EDDF4305 /* Pods-MyFirst_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirst_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirst_Example/Pods-MyFirst_Example.release.xcconfig"; sourceTree = "<group>"; };
 		AABEF5016D38A61939DE884C /* Pods_MyFirst_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyFirst_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B07F054C8FFE2763C04383B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B07F054C8FFE2763C04383B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C654AE0655C4FCA9FBC01C9E /* Pods-MyFirst_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirst_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirst_Tests/Pods-MyFirst_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D36C3C8398EB1CBE4652A59D /* MyFirst.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MyFirst.podspec; path = ../MyFirst.podspec; sourceTree = "<group>"; };
-		E798DD29F0429DA995881245 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D36C3C8398EB1CBE4652A59D /* MyFirst.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MyFirst.podspec; path = ../MyFirst.podspec; sourceTree = "<group>"; };
+		E798DD29F0429DA995881245 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		FF4A8164CCFEB93B9E94BE41 /* Pods-MyFirst_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyFirst_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyFirst_Tests/Pods-MyFirst_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

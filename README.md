@@ -22,7 +22,7 @@ pod "MyFirst"
 
 ## Author
 
-fengshuo3, fengshuo3@jd.com
+fs, fs@sina.com
 
 ## License
 

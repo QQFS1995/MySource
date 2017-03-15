@@ -40,6 +40,8 @@
 		425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */ = {isa = PBXBuildFile; fileRef = B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		47441F671E791F9E00E59A52 /* TestTwoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47441F651E791F9E00E59A52 /* TestTwoViewController.h */; };
 		47441F681E791F9E00E59A52 /* TestTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47441F661E791F9E00E59A52 /* TestTwoViewController.m */; };
+		47441F6E1E793D0C00E59A52 /* FFttViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 47441F6C1E793D0C00E59A52 /* FFttViewController.h */; };
+		47441F6F1E793D0C00E59A52 /* FFttViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47441F6D1E793D0C00E59A52 /* FFttViewController.m */; };
 		47BA77226056D790A2964605F468D6EA /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AD199F953A76C011AAE0FEC9C76880F /* FBSnapshotTestCase-dummy.m */; };
 		47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 58335D3E2909BF5D62C81864F19B78F1 /* EXPMatchers+beLessThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		47EC7BD047C906B92B85399E097E258E /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A29BA8C3E774C364BD56A4AAFFF1E6AA /* UIApplication+StrictKeyWindow.m */; };
@@ -278,6 +280,8 @@
 		44B2B045F90EF67C270325CB4FAAC9EE /* MyFirst-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyFirst-dummy.m"; sourceTree = "<group>"; };
 		47441F651E791F9E00E59A52 /* TestTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTwoViewController.h; sourceTree = "<group>"; };
 		47441F661E791F9E00E59A52 /* TestTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTwoViewController.m; sourceTree = "<group>"; };
+		47441F6C1E793D0C00E59A52 /* FFttViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFttViewController.h; sourceTree = "<group>"; };
+		47441F6D1E793D0C00E59A52 /* FFttViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFttViewController.m; sourceTree = "<group>"; };
 		49C2B34619A5DA67B6B49A2129352292 /* TestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		4A13AEBD3A512EC975C2DD3AF8D8931D /* Expecta+Snapshots.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Expecta+Snapshots.xcconfig"; sourceTree = "<group>"; };
 		4A6FA6514DAE7C7226C8C112DFE74E58 /* EXPMatchers+beFalsy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beFalsy.m"; path = "Expecta/Matchers/EXPMatchers+beFalsy.m"; sourceTree = "<group>"; };
@@ -833,6 +837,8 @@
 		F1E7E5D16D210AA93ABEC5CDD7CC9083 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				47441F6C1E793D0C00E59A52 /* FFttViewController.h */,
+				47441F6D1E793D0C00E59A52 /* FFttViewController.m */,
 				A15016E092EF4C4CC4284A83E567D678 /* ReplaceMe.m */,
 				49C2B34619A5DA67B6B49A2129352292 /* TestViewController.h */,
 				C454AC8B9981DEDDC74B2B0C95A9BFFD /* TestViewController.m */,
@@ -864,6 +870,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69B19AD08F9B94BEDF75765638A52621 /* MyFirst-umbrella.h in Headers */,
+				47441F6E1E793D0C00E59A52 /* FFttViewController.h in Headers */,
 				4FAE55EB752309BB9D45952B8EFD5096 /* TestViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1199,6 +1206,7 @@
 			files = (
 				BAEF71837C4603D8AC57BC11F146E68A /* MyFirst-dummy.m in Sources */,
 				9DBCB3845B98C0441AE1D821E4187F42 /* ReplaceMe.m in Sources */,
+				47441F6F1E793D0C00E59A52 /* FFttViewController.m in Sources */,
 				362D914B940663A71BDEABE955BFC7DC /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
