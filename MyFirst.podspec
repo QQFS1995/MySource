@@ -31,11 +31,11 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MyFirst/Classes/**/*'
+  s.vendored_libraries = 'ios/*.framework'
   
   # s.resource_bundles = {
   #   'MyFirst' => ['MyFirst/Assets/*.png']
   # }
-  s.library  = 'ios/MyFirst.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
