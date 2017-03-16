@@ -35,6 +35,7 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'MyFirst' => ['MyFirst/Assets/*.png']
   # }
+  s.ios.vendored_frameworks  = 'MyFirst-0.6.0/ios/BZLib.framework'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
