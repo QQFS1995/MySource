@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MyFirst'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = 'A short description of MyFirst.'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
   s.source_files = 'MyFirst/Classes/**/*'
   s.vendored_libraries = 'ios/*.framework'
   
-  # s.resource_bundles = {
-  #   'MyFirst' => ['MyFirst/Assets/*.png']
-  # }
+    s.resource_bundles = {
+     'MyFirst' => ['MyFirst/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
