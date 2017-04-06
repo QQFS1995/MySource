@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
   s.source_files = 'MyFirst/Classes/**/*'
   # s.vendored_libraries = 'ios/*.framework'
   
-    s.resource_bundles = {
-     'MyFirst' => ['MyFirst/Assets.xcassets/*.png']
-   }
+    # s.resource_bundles = {
+    #  'MyFirst' => ['MyFirst/Assets.xcassets/*.png']
+   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
