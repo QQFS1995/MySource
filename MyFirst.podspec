@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MyFirst'
   s.version          = '0.7.0'
-  s.summary          = 'A short description of MyFirst.'
+  s.summary          = 'test MyFirst.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'MyFirst/Classes/**/*'
-  s.vendored_libraries = 'ios/*.framework'
+  # s.vendored_libraries = 'ios/*.framework'
   
     s.resource_bundles = {
      'MyFirst' => ['MyFirst/Assets/*.png']
